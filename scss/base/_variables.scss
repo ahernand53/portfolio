@@ -3,10 +3,21 @@
 // Set custom colors
 $teal: #2dbc66 !default;
 $dark-blue: #2c3e50 !default;
+$red-light: #b5000d !default;
+$orange-light: #da7c1a !default;
+$yellow-light: #f7c200 !default;
+$green-light: #9eff00 !default;
+$green-dark: #3eee3b !default;
 
 // Override Bootstrap primary and secondary colors
 $primary: $teal !default;
 $secondary: $dark-blue !default;
+
+$zero: $red-light !default;
+$twenty-five: $orange-light !default;
+$fifty: $yellow-light !default;
+$seventy-five: $green-light !default;
+$completed: $green-dark !default;
 
 // Override Bootstrap font variables
 $font-family-sans-serif: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji' !default;

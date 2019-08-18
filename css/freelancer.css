@@ -10813,37 +10813,6 @@ a.text-dark:hover, a.text-dark:focus {
 
 .floating-label-form-group {
   position: relative;
-  border-bottom: 1px solid #e9ecef;
-}
-
-.floating-label-form-group input,
-.floating-label-form-group textarea {
-  font-size: 1.5em;
-  position: relative;
-  z-index: 1;
-  padding-right: 0;
-  padding-left: 0;
-  resize: none;
-  border: none;
-  border-radius: 0;
-  background: none;
-  -webkit-box-shadow: none !important;
-  box-shadow: none !important;
-}
-
-.floating-label-form-group label {
-  font-size: 0.85em;
-  line-height: 1.764705882em;
-  position: relative;
-  z-index: 0;
-  top: 2em;
-  display: block;
-  margin: 0;
-  -webkit-transition: top 0.3s ease, opacity 0.3s ease;
-  transition: top 0.3s ease, opacity 0.3s ease;
-  vertical-align: middle;
-  vertical-align: baseline;
-  opacity: 0;
 }
 
 .floating-label-form-group:not(:first-child) {
@@ -10856,14 +10825,6 @@ a.text-dark:hover, a.text-dark:focus {
   opacity: 1;
 }
 
-.floating-label-form-group-with-focus label {
-  color: #2dbc66;
-}
-
-form .row:first-child .floating-label-form-group {
-  border-top: 1px solid #e9ecef;
-}
-
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -10873,4 +10834,29 @@ form .row:first-child .floating-label-form-group {
 
 .copyright {
   background-color: #1a252f;
+}
+
+.pg-zero {
+  background: #b5000d;
+  color: black;
+}
+
+.pg-twenty-five {
+  background: #da7c1a;
+  color: black;
+}
+
+.pg-fifty {
+  background: #f7c200;
+  color: black;
+}
+
+.pg-seventy-five {
+  background: #9eff00;
+  color: black;
+}
+
+.pg-one-hundred {
+  background: #3eee3b;
+  color: black;
 }
